@@ -1,0 +1,54 @@
+{
+    "name": "bitsnbolts/laravel-collection-macros",
+    "description": "A set of useful Laravel collection macros",
+    "keywords": [
+        "bitsnbolts",
+        "laravel-collection-macros"
+    ],
+    "homepage": "https://github.com/bitsnbolts/laravel-collection-macros",
+    "license": "MIT",
+    "type": "library",
+    "authors": [
+        {
+            "name": "Thijs van den Anker",
+            "email": "thijs@bitsnbolts.nl",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": "^7.1",
+        "illuminate/support": "5.7.*"
+    },
+    "require-dev": {
+        "orchestra/testbench": "3.8.*",
+        "phpunit/phpunit": "^7.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Bitsnbolts\\LaravelCollectionMacros\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Bitsnbolts\\LaravelCollectionMacros\\Tests\\": "tests"
+        }
+    },
+    "scripts": {
+        "test": "vendor/bin/phpunit",
+        "test-coverage": "vendor/bin/phpunit --coverage-html coverage"
+
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Bitsnbolts\\LaravelCollectionMacros\\LaravelCollectionMacrosServiceProvider"
+            ],
+            "aliases": {
+                "LaravelCollectionMacros": "Bitsnbolts\\LaravelCollectionMacros\\LaravelCollectionMacrosFacade"
+            }
+        }
+    }
+}
