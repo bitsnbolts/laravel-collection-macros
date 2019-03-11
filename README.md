@@ -1,7 +1,7 @@
 # Laravel Collection Macros
 
 [![Latest Version on Packagist](https://img.shields.io/packagist/v/bitsnbolts/laravel-collection-macros.svg?style=flat-square)](https://packagist.org/packages/bitsnbolts/laravel-collection-macros)
-[![Build Status](https://img.shields.io/travis/bitsnbolts/laravel-collection-macros/master.svg?style=flat-square)](https://travis-ci.org/bitsnbolts/laravel-collection-macros)
+[![Build Status](https://img.shields.io/travis/com/bitsnbolts/laravel-collection-macros/master.svg?style=flat-square)](https://travis-ci.org/bitsnbolts/laravel-collection-macros)
 [![Quality Score](https://img.shields.io/scrutinizer/g/bitsnbolts/laravel-collection-macros.svg?style=flat-square)](https://scrutinizer-ci.com/g/bitsnbolts/laravel-collection-macros)
 [![Total Downloads](https://img.shields.io/packagist/dt/bitsnbolts/laravel-collection-macros.svg?style=flat-square)](https://packagist.org/packages/bitsnbolts/laravel-collection-macros)
 
