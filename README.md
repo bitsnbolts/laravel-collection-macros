@@ -22,7 +22,7 @@ Do a find and replace on all the keys of the collection.
 
 ```php
 $data = new Collection(['foo_bar' => 1]);
-$data->replaceInKeys('_', ' '); // Collection(['foobar' => 1])
+$data->replaceInKeys('_', ' '); // Collection(['foo bar' => 1])
 ```
 
 ### Testing
