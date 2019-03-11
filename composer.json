@@ -45,10 +45,7 @@
         "laravel": {
             "providers": [
                 "Bitsnbolts\\LaravelCollectionMacros\\LaravelCollectionMacrosServiceProvider"
-            ],
-            "aliases": {
-                "LaravelCollectionMacros": "Bitsnbolts\\LaravelCollectionMacros\\LaravelCollectionMacrosFacade"
-            }
+            ]
         }
     }
 }
