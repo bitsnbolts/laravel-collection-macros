@@ -1,6 +1,6 @@
 <?php
 
-namespace Bitsnbolts\LaravelCollectionMacros\Macros;
+namespace BitsnBolts\LaravelCollectionMacros\Macros;
 
 use Illuminate\Support\Collection;
 

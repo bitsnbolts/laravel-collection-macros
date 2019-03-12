@@ -1,10 +1,10 @@
 <?php
 
-namespace Bitsnbolts\LaravelCollectionMacros;
+namespace BitsnBolts\LaravelCollectionMacros;
 
 use Illuminate\Support\Collection;
 use Illuminate\Support\ServiceProvider;
-use Bitsnbolts\LaravelCollectionMacros\Macros\ReplaceInKeys;
+use BitsnBolts\LaravelCollectionMacros\Macros\ReplaceInKeys;
 
 class LaravelCollectionMacrosServiceProvider extends ServiceProvider
 {

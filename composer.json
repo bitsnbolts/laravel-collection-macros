@@ -25,12 +25,12 @@
     },
     "autoload": {
         "psr-4": {
-            "Bitsnbolts\\LaravelCollectionMacros\\": "src"
+            "BitsnBolts\\LaravelCollectionMacros\\": "src"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Bitsnbolts\\LaravelCollectionMacros\\Tests\\": "tests"
+            "BitsnBolts\\LaravelCollectionMacros\\Tests\\": "tests"
         }
     },
     "scripts": {
@@ -44,7 +44,7 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Bitsnbolts\\LaravelCollectionMacros\\LaravelCollectionMacrosServiceProvider"
+                "BitsnBolts\\LaravelCollectionMacros\\LaravelCollectionMacrosServiceProvider"
             ]
         }
     }
