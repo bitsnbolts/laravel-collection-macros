@@ -1,13 +1,14 @@
 <?php
 
-namespace Bitsnbolts\LaravelCollectionMacros\Tests;
+namespace BitsnBolts\LaravelCollectionMacros\Tests;
 
-class ExampleTest extends \Orchestra\Testbench\TestCase
+class ReplaceInKeysTest extends \Orchestra\Testbench\TestCase
 {
     protected function getPackageProviders($app)
     {
-        return ['Bitsnbolts\LaravelCollectionMacros\LaravelCollectionMacrosServiceProvider'];
+        return ['BitsnBolts\LaravelCollectionMacros\LaravelCollectionMacrosServiceProvider'];
     }
+
     /** @test */
     public function it_can_replace_values_in_collection_keys()
     {
