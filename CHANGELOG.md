@@ -2,6 +2,9 @@
 
 All notable changes to `laravel-collection-macros` will be documented in this file
 
+## 1.1.0 - 2019-05-05
+ - Update for Laravel 5.8
+
 ## 1.0.2 - 2019-03-12
 
  - Move from Bitsnbolts to BitsnBolts namespace
